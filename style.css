@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-color: #9333ea;
+  --text-color: #faf5ff;
+}
+.image-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.image-slides {
+  height: 80vh;
+  width: 80vw;
+  background-image: url("./images/genshin-impact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btn {
+  cursor: pointer;
+  color: var(--text-color);
+  background: var(--main-color);
+  padding: 1rem 2rem;
+}
+.circle-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.circle {
+  border: 1px solid black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+}
